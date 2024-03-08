@@ -1,0 +1,48 @@
+.padding{ 
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px
+}
+
+.footer p,h5{
+    color: white;
+    padding: 10px
+}
+.buffer{
+    padding: 0px 10px
+}
+
+.title{
+    color: black;
+    text-align: center;
+    margin: 40px;
+}
+
+.container-element img{
+    width: 100%;
+    border: 10px solid rgb(206, 165, 172);
+    
+}
+
+.container-element{
+    position: relative;
+}
+
+.container-title {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.434);
+    padding-top: 10px;
+}
+
+.container-title{
+
+}
+

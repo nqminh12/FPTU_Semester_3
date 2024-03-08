@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box1">
+        <input type="checkbox" class="checkbox" data-price="15">
+        <label for=>kem dâu tây - $15</label>
+    </div>
+    <div class="box1">
+        <input type="checkbox" class="checkbox" data-price="12">
+        <label>kem xoài - $12</label>
+
+    </div>
+    <div class="box1">
+        <input type="checkbox" class="checkbox" data-price="30">
+        <label>kem dừa - $30</label>
+
+    </div>
+    <div class="box1">
+        <input type="checkbox" class="checkbox" data-price="40">
+        <label>kem matcha - $40</label>
+    </div>
+    <div class="box1">
+        <input type="checkbox" class="checkbox" data-price="1000">
+        <label>kem dát vàng - $1000</label>
+    </div>
+    <button type="button" onclick="totales()">Order</button>
+
+
+
+
+    <h1>Số tiền cần thanh toán: <span id="tong-tien"></span></h1>
+
+
+    <script>
+        function totales() {
+            const checkboxes = document.querySelectorAll('.checkbox');
+            let sum = 0;
+            foreach(let x in checkbox){
+                if (x.checked) {
+                    const price = parseFloat(x.getAttribute('data-price'));
+                    sum += price;
+                }
+            });
+            alert(sum)
+        }
+    </script>
+</body>
+
+</html>

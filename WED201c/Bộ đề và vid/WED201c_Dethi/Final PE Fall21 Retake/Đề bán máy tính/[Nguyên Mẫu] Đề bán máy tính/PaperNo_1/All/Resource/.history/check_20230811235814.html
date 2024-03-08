@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box1">
+        <input type="checkbox" >
+        <p>kem dâu tây</p>
+        <p class="price">15$</p>
+    </div>
+    <div class="box1">
+        <input type="checkbox" >
+        <p>kem xoài</p>
+        <p class="price">12$</p>
+    </div>
+    <div class="box1">
+        <input type="checkbox" >
+        <p>kem dừa</p>
+        <p class="price">30$</p>
+    </div>
+    <div class="box1">
+        <input type="checkbox" >
+        <p>kem matcha</p>
+        <p class="price">40$</p>
+    </div>
+    <div class="box1">
+        <input type="checkbox" >
+        <p>kem dát vàng</p>
+        <p class="price">1000$</p>
+    </div>
+    <button type="button" onclick="totales()">Order</button>
+
+
+    <h1>Số tiền cần thanh toán: <span id = "tong-tien"></span></h1>
+
+
+    <script>
+        function totales(){
+            var obj = document.querySelectorAll("30");
+            var sum = 0;
+            for(let i = 0; i < obj.length; i++){
+                // sum += parseFloat(obj[i]);
+                alert(obj[i])
+            }
+          
+            
+        }
+    </script>
+</body>
+</html>

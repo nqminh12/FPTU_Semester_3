@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Todo App</h1>
+    <input id = "input" /> <button onclick = "addItem()">Add</button>
+    <div class="result">
+        <ul id="list-todo">
+        </ul>
+    </div>
+    <script>
+        // console.log(localStorage.getItem('key2'));  
+        // localStorage.setItem('key2', 'value2');//local storage chỉ lưu được dạng string
+        // let person = {
+        //     id: 1,
+        //     name: "Quan"
+        // }
+
+        // let personStr = JSON.stringify(person);
+        // localStorage.setItem('person', personStr)
+        let listToDo = ['Sáng chơi', 'Trưa đi chơi tiếp'];
+        let ul = document.getElementById('list-todo') 
+        for(let i = 0; i < list.size; i++){
+            let li = document.createElement('li');
+            li.innerHTML = listToDo[i];
+            ul.appendChild(li)
+        }
+
+        function addItem(){
+            let input = document.getElementById('input');
+            let text = input.value;
+            let li = document.createElement('li');
+            li.innerHTML = text;
+            ul.appendChild(li);
+            input.value = "";
+        }
+    </script>
+</body>
+</html>

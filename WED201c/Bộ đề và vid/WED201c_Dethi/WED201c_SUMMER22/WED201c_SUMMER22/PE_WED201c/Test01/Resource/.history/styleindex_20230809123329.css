@@ -1,0 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#c-circle{
+    text-align: center;
+    border: 1px solid black ;
+    border-radius: 0%;
+}

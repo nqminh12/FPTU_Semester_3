@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Todo App</h1>
+    <input id = "input" /> <button onclick = "addItem()">Add</button>
+    <div class="result">
+        <ul id="list-todo">
+            <li>sáng chơi</li>
+            <li>trưa chơi</li>
+        </ul>
+    </div>
+    <script>
+        function addItem(){
+            let input = document.getElementById('input').value;
+            //let text = input.value;
+            let li = document.createElement('li');
+            li.innerHTML = input;
+            let todolist = document.getElementById('list-todo')
+            todolist.appendChild(li);
+            document.getElementById('input').value = "";
+        }
+    </script>
+</body>
+</html>

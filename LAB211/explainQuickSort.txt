@@ -1,0 +1,45 @@
+QUICK SORT
+
+Link lý thuyêt(ĐỌC HIỂU VÀ THẬT KĨ NHE):https://niithanoi.edu.vn/quick-sort.html
+Link giải thích bằng hoạt ảnh: https://www.youtube.com/watch?v=Hoixgm4-P4M
+
+
+(chia cả dãy số log2(n) lần.)
+chọn phần tử khóa pivot là phần tử ở cuối
+xếp các phần tử nhỏ trước phần chốt các phần tử to hơn ra sau chốt
+các phần tử sẽ được so sánh với khóa và hoán đổi vị trí cho nhau
+hoặc cho khóa nếu nó lớn hơn khóa mà lại nằm trước khóa, hoặc nhỏ hơn mà lại nằm sau khóa.
+tiếp tục làm vậy cho đến khi mỗi đoạn chỉ còn 2 phần tử. Khi đó toàn bộ dãy đã được sắp xếp.
+
+code chạy
+ta bắt đầu từ phần tử ngoài cùng bên trái và theo dõi chỉ số của các phần tử nhỏ hơn (hoặc bằng) là i.
+Trong khi duyệt, nếu ta tìm thấy một phần tử nhỏ hơn, ta hoán đổi phần tử hiện tại với arr[i]
+
+phần tử i đi đến đâu sẽ fix các số nhỏ hơn pivot từ nó đến sau, sau vòng lặp đổi i + 1 với pivot
+vì i + 1 là phần tử to hơn pivot đầu tiên trong dãy, sau khi đổi sẽ có dãy như dự tính
+
+int partition(int arr[], int low, int high) {
+        int pivot = arr[high];
+        int i = (low - 1); // index of smaller element
+        for (int j = low; j < high; j++) {
+
+            // Nếu phần tử hiện tại nhỏ hơn chốt
+            if (arr[j] < pivot) {
+                i++;
+
+                // swap arr[i] và arr[j]
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+
+        // swap arr[i+1] và arr[high] (hoặc pivot)
+        int temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+
+        return i + 1;
+    }
+
+ví dụ dãy: {10, 80, 30, 90, 40, 50, 70}

@@ -1,0 +1,11 @@
+PC001, Product 1, 10, 5, 10.5
+PC002, Product 2, 5, 3, 20.0
+PC003, Product 3, 15, 12, 7.8
+PC004, Product 4, 8, 4, 15.75
+PC005, Product 5, 20, 18, 9.99
+PC006, Product 6, 3, 1, 25.0
+PC007, Product 7, 12, 10, 12.5
+PC008, Product 8, 7, 5, 17.99
+PC009, Product 9, 2, 1, 30.25
+PC010, Product 10, 6, 4, 11.0
+

@@ -1,0 +1,16 @@
+.padding {
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner-img img{
+    width: 100%;
+}
+.banner-content{
+    margin: 0px 20px;
+}
+
+.banner-content p{
+    color: orange;
+    border-bottom: 1px solid aqua;
+}

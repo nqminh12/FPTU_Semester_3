@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.footer{
+    background-color: black;
+    padding: 30px
+}

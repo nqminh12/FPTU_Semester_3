@@ -1,0 +1,18 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-content {
+    font-size: 30px;
+    padding-left: 50px;
+}

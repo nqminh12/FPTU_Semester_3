@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.footer{
+    background-color: black;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.footer p, h5{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-list ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.header-list ul li a{
+    text-decoration: none;
+    padding: 0px 10px
+}
+.header-logo{
+
+}
+.header-input{
+
+}

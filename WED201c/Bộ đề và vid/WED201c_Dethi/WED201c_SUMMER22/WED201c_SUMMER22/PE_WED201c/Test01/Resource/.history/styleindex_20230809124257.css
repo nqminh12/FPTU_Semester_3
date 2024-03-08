@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#c-circle{
+    text-align: center;
+    border: 1px solid black ;
+    border-radius: 50%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+    justify-content: center;
+}
+
+.header-list li{
+    list-style-type: none;
+   
+}
+
+.header-list li a{
+    text-decoration: none;
+    color: aqua;
+   
+}
+

@@ -1,0 +1,13 @@
+.box1{
+    display: flex;
+    justify-content: center;
+}
+
+.box1 input,p{
+    padding: 20px
+}
+
+button{
+    background-color: orange;
+    color: white;
+}

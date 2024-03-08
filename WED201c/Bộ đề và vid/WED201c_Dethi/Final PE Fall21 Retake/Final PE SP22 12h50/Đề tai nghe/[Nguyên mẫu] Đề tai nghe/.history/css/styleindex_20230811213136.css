@@ -1,0 +1,30 @@
+.padding{ 
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px
+}
+
+.footer p,h5{
+    color: white;
+    padding: 10px
+}
+.container{
+    padding: 0px 10px
+}
+
+.title{
+    color: black;
+    text-align: center;
+    margin: 20px;
+}
+
+.container-element img{
+    width: 100%;
+    padding: 10px;
+}
+

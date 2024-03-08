@@ -1,0 +1,86 @@
+.padding{ 
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.footer p,h5{
+    color: white;
+    padding: 10px;
+}
+.buffer{
+    padding: 0px 10px
+}
+
+.title{
+    color: black;
+    text-align: center;
+    margin: 40px;
+}
+
+.container-element img{
+    width: 100%;
+    border: 10px solid rgb(185, 164, 167);
+    
+}
+
+.container-element{
+    position: relative;
+}
+
+.container-title {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.434);
+    padding-top: 10px;
+}
+
+.container-middle img{
+    width: 360px;
+    height: 360px;
+}
+
+
+
+.container-middle > div{
+    background-color: rgb(185, 164, 167);
+}
+
+.red {
+    color: red;
+
+}
+
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
+.container-middle > div {
+    padding: 10px 0px;;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.image {
+    width: 100%;
+}
+
+.div-gg-map{
+    position: relative;
+}
+
+#gg-map{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
